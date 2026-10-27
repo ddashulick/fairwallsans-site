@@ -1,0 +1,7 @@
+@import 'reset.css';
+@import 'layout.css';
+
+@font-face {
+    font-family: 'Fairwall Sans';
+    src: url('../fonts/FairwallSans-Regular.otf');
+}

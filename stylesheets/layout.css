@@ -1,0 +1,610 @@
+/* все картинки стоят поверх, по координатам из макета */
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    user-select: none;
+    pointer-events: none;
+}
+
+.title img {
+    position: static;
+}
+
+.site {
+    position: relative;
+    width: 1440px;
+    overflow: hidden;
+}
+
+.hero, .about, .styles, .symbols, .features, .languages, .footer {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.heading {
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.red {
+    color: #f7010f;
+}
+
+/* hero */
+
+.hero {
+    height: 1058px;
+}
+
+.title {
+    margin-top: 117px;
+    margin-left: 118px;
+}
+
+.spot {
+    left: 482px;
+}
+
+.floor1 {
+    top: 871px;
+    left: 474px;
+}
+
+.line1 {
+    top: 495px;
+}
+
+.line2 {
+    top: 497px;
+}
+
+.note1 {
+    top: 636px;
+    left: 1181px;
+}
+
+.note2 {
+    top: 641px;
+    left: 1175px;
+}
+
+.note3 {
+    top: 674px;
+    left: 1212px;
+}
+
+.pianist {
+    top: 347px;
+    left: 781px;
+    width: 659px;
+}
+
+/* о шрифте */
+
+.about {
+    height: 1024px;
+}
+
+.about .heading {
+    margin-top: 202px;
+    margin-left: 881px;
+    color: #000000;
+}
+
+.about .text {
+    margin-top: 12px;
+    margin-left: 740px;
+    color: #000000;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.line3 {
+    top: 185px;
+    left: 320px;
+}
+
+.line4 {
+    top: 231px;
+    left: 363px;
+}
+
+.floor2 {
+    left: 475px;
+}
+
+.line5 {
+    top: 886px;
+}
+
+.sax1 {
+    top: 306px;
+    width: 605px;
+}
+
+.bubble {
+    top: 139px;
+    left: 464px;
+}
+
+.tail {
+    top: 716px;
+    left: 464px;
+}
+
+/* начертание */
+
+.styles {
+    height: 1024px;
+}
+
+.styles .letters {
+    margin-top: 229px;
+    margin-left: 926px;
+    font-size: 250px;
+    line-height: 300px;
+}
+
+.styles .one {
+    margin-top: -54px;
+    margin-left: 48px;
+    font-size: 90px;
+    line-height: 108px;
+}
+
+.styles .regular {
+    margin-left: 238px;
+    font-size: 96px;
+    line-height: 115px;
+}
+
+.line8 {
+    left: 373px;
+}
+
+.line9 {
+    top: 133px;
+}
+
+.line10 {
+    top: 485px;
+    left: 1px;
+}
+
+.sax2 {
+    width: 554px;
+}
+
+.line12 {
+    top: 96px;
+}
+
+.line13 {
+    top: 420px;
+}
+
+/* символы */
+
+.symbols {
+    height: 1099px;
+    margin-top: -62px;
+}
+
+.symbols p {
+    font-size: 96px;
+    line-height: 115px;
+}
+
+.symbols .heading {
+    margin-top: -55px;
+    margin-left: 34px;
+}
+
+.symbols .sign1 {
+    margin-top: -7px;
+    margin-left: 781px;
+    font-size: 128px;
+    line-height: 154px;
+}
+
+.symbols .sign2 {
+    margin-top: -147px;
+    margin-left: 1207px;
+    font-size: 128px;
+    line-height: 154px;
+}
+
+.symbols .sign3 {
+    margin-top: -141px;
+    margin-left: 1035px;
+}
+
+.symbols .sign4 {
+    margin-top: -23px;
+    margin-left: 513px;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.symbols .sign5 {
+    margin-top: -38px;
+    margin-left: 125px;
+}
+
+.symbols .sign6 {
+    margin-top: -57px;
+    margin-left: 1339px;
+    font-size: 128px;
+    line-height: 154px;
+}
+
+.symbols .sign7 {
+    margin-top: -153px;
+    margin-left: 360px;
+}
+
+.symbols .sign8 {
+    margin-top: -96px;
+    margin-left: 1014px;
+}
+
+.symbols .sign9 {
+    margin-top: -76px;
+    margin-left: 543px;
+}
+
+.symbols .sign10 {
+    margin-top: -58px;
+    margin-left: 125px;
+    font-size: 128px;
+    line-height: 154px;
+}
+
+.symbols .sign11 {
+    margin-top: -63px;
+    margin-left: 360px;
+    font-size: 128px;
+    line-height: 154px;
+}
+
+.symbols .sign12 {
+    margin-top: -128px;
+    margin-left: 1145px;
+    font-size: 128px;
+    line-height: 154px;
+}
+
+.symbols .sign13 {
+    margin-top: -109px;
+    margin-left: 977px;
+}
+
+.symbols .sign14 {
+    margin-top: -86px;
+    margin-left: 72px;
+}
+
+.symbols .sign15 {
+    margin-top: -87px;
+    margin-left: 230px;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.symbols .sign16 {
+    margin-top: 14px;
+    margin-left: 1078px;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.symbols .sign17 {
+    margin-top: -68px;
+    margin-left: 390px;
+}
+
+.symbols .sign18 {
+    margin-top: -103px;
+    margin-left: 1318px;
+}
+
+.symbols .sign19 {
+    margin-top: -12px;
+    margin-left: 136px;
+}
+
+.symbols .sign20 {
+    margin-top: -110px;
+    margin-left: 373px;
+}
+
+.symbols .sign21 {
+    margin-top: -108px;
+    margin-left: 943px;
+    font-size: 128px;
+    line-height: 154px;
+}
+
+.symbols .sign22 {
+    margin-top: -103px;
+    margin-left: 452px;
+    font-size: 128px;
+    line-height: 154px;
+}
+
+.symbols .sign23 {
+    margin-top: -128px;
+    margin-left: 1167px;
+}
+
+.symbols .sign24 {
+    margin-top: -63px;
+    margin-left: 267px;
+    font-size: 128px;
+    line-height: 154px;
+}
+
+.symbols .sign25 {
+    margin-top: -129px;
+    margin-left: 991px;
+}
+
+.mic {
+    top: 243px;
+    left: 476px;
+    width: 529px;
+}
+
+/* особенности */
+
+.features {
+    height: 1124px;
+}
+
+.features h2 {
+    color: #f7010f;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.features p {
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.features .title1 {
+    margin-top: 94px;
+    margin-left: 1018px;
+}
+
+.features .title2 {
+    margin-top: -28px;
+    margin-left: 83px;
+}
+
+.features .big {
+    margin-top: -40px;
+    margin-left: 466px;
+    font-size: 600px;
+    line-height: 720px;
+}
+
+.features .text1 {
+    margin-top: -690px;
+    margin-left: 907px;
+}
+
+.features .text2 {
+    margin-top: -99px;
+    margin-left: 51px;
+}
+
+.features .title3 {
+    margin-top: 50px;
+    margin-left: 853px;
+}
+
+.features .title4 {
+    margin-top: -25px;
+    margin-left: 83px;
+}
+
+.features .text3 {
+    margin-top: -28px;
+    margin-left: 870px;
+}
+
+.features .text4 {
+    margin-top: -59px;
+    margin-left: 50px;
+}
+
+.features .title5 {
+    margin-top: 62px;
+    margin-left: 121px;
+}
+
+.features .text5 {
+    margin-top: 18px;
+    margin-left: 194px;
+}
+
+.line14 {
+    top: 136px;
+    left: 691px;
+}
+
+.line15 {
+    top: 168px;
+    left: 429px;
+}
+
+.line16 {
+    top: 520px;
+    left: 395px;
+}
+
+.line17 {
+    top: 482px;
+    left: 757px;
+}
+
+.line18 {
+    top: 525px;
+    left: 699px;
+}
+
+.line19 {
+    top: 690px;
+    left: 1114px;
+}
+
+.line20 {
+    top: 688px;
+}
+
+.line21 {
+    top: 810px;
+}
+
+.line22 {
+    top: 680px;
+    left: 1139px;
+}
+
+/* языки */
+
+.languages {
+    height: 1046px;
+}
+
+.languages .heading {
+    margin-top: 23px;
+    margin-left: 34px;
+}
+
+.languages p {
+    color: #f7010f;
+    font-size: 44px;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+
+.languages .lang1 {
+    margin-top: -37px;
+    margin-left: 884px;
+}
+
+.languages .lang2 {
+    margin-top: -16px;
+    margin-left: 378px;
+}
+
+.languages .lang3 {
+    margin-top: 20px;
+    margin-left: 1058px;
+}
+
+.languages .lang4 {
+    margin-top: 38px;
+    margin-left: 55px;
+}
+
+.languages .lang5 {
+    margin-top: -9px;
+    margin-left: 1169px;
+}
+
+.languages .lang6 {
+    margin-top: 69px;
+    margin-left: 144px;
+}
+
+.languages .lang7 {
+    margin-top: 6px;
+    margin-left: 1176px;
+}
+
+.languages .lang8 {
+    margin-top: 68px;
+    margin-left: 35px;
+}
+
+.languages .lang9 {
+    margin-top: -15px;
+    margin-left: 1236px;
+    color: #e8010e;
+}
+
+.languages .lang10 {
+    margin-top: 106px;
+    margin-left: 1153px;
+}
+
+.languages .lang11 {
+    margin-top: -46px;
+    margin-left: 35px;
+}
+
+.band {
+    top: 150px;
+    left: 276px;
+    width: 877px;
+}
+
+.line23 {
+    top: 846px;
+    left: 717px;
+}
+
+.line24 {
+    top: 926px;
+    left: 404px;
+}
+
+.line25 {
+    top: 1021px;
+    left: 1380px;
+}
+
+.line26 {
+    left: 1114px;
+}
+
+.line27 {
+    left: 1136px;
+}
+
+/* футер */
+
+.footer {
+    height: 330px;
+}
+
+.footer p {
+    margin-top: 8px;
+    margin-left: 35px;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+}
+
+.footer .name1 {
+    margin-top: 97px;
+}
+
+.line29 {
+    left: 410px;
+}
+
+.line30 {
+    left: 251px;
+}

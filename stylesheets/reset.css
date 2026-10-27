@@ -1,0 +1,16 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fairwall Sans';
+    margin: 0;
+    background-color: #000000;
+}
+
+h1, h2, p {
+    position: relative;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 400;
+}
